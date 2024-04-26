@@ -1,1 +1,16 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 
+/* app.css */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Markazi Text', serif !important;
+    text-align: left;
+}
+
+/* karla font */
+p {
+    font-family: 'Karla', sans-serif;
+    text-align: left;
+}
