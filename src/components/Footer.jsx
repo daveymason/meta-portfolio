@@ -26,12 +26,6 @@ const Footer = () => {
         title: "Tweet me!",
       },
     ];
-  
-    const navLinks = [
-      { href: "#home", text: "About", icon: "fas fa-user" },
-      { href: "#about", text: "Projects", icon: "fas fa-project-diagram" },
-      { href: "#contact", text: "Contact Me", icon: "fas fa-envelope" },
-    ];
 
     const styles = {
           footer: {
@@ -83,16 +77,6 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <ul style={styles.navLinks}>
-          {navLinks.map((link, index) => (
-            <li key={index} className="nav-item" style={styles.navLinkItem}>
-              <a className="nav-link" href={link.href}>
-                <i className={link.icon} style={styles.navLinkIcon}></i>
-                {link.text}
-              </a>
-            </li>
-          ))}
-        </ul>
       </nav>
     );
   };
