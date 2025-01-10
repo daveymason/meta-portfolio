@@ -45,7 +45,7 @@ const About = ({ id, title }) => (
               <CardMedia
                 component="img"
                 height="140"
-                image={`https://source.unsplash.com/1600x900/?authentic-lemon-tea&sig=${index}`}
+                image={`/lazy-lemon-${index + 1}.jpg`}
                 alt="Random Image"
               />
             </Card>
